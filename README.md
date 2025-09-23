@@ -7,6 +7,9 @@ An efficient model to predict conduction velocity changes in unmyelinated axons,
 ## Installation and Usage:
 - download the files
 - examples how to use the 1D and 2D model are given in the corresponding Notebook files
+- convolution_1D.py and convolution_2D.py contain the respective definitions of the memory functions and the function that convolves the memory function with a given signal/stimulation protocol
+- stimulationProtocols.py defines examplary signals for the convolution
+- plot.py contains some functions to plot the resulting latencies of the pre-defined stimulation protocols
 
 ## Citation:
 (for details see the CITATION.cff) If you refer to this project in an article, we would appreciate it if you cited the preprint:
