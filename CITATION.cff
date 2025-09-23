@@ -20,7 +20,7 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.17182121
 repository-code: >-
-  https://github.com/Digital-C-Fiber/Modelling-of-Memory-in-Unmyelinated-Axons/blob/main/README.md
+  https://github.com/Digital-C-Fiber/Modelling-of-Memory-in-Unmyelinated-Axons/
 abstract: >-
   An efficient model to predict conduction velocity changes
   in unmyelinated axons, based on "memory" where prior
