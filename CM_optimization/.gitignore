@@ -1,0 +1,19 @@
+.vscode/
+__pycache__/
+*.pyc
+
+# Optimization results are large (several GB) - only the best parameters of the final runs are published,
+# so that run_plot.py works on a fresh clone
+Results/*
+!Results/opt-Linear-Convo-CM-run15+fb/
+Results/opt-Linear-Convo-CM-run15+fb/*
+!Results/opt-Linear-Convo-CM-run15+fb/opt-Linear-Convo-CM-run15+fb_bestParticles.csv
+!Results/opt-Linear-Convo-CM-run15+fb/opt-Linear-Convo-CM-run15+fbparticle0.csv
+!Results/opt-Nonlinear-Convo-CM15-fb-2hz-025-newbounds/
+Results/opt-Nonlinear-Convo-CM15-fb-2hz-025-newbounds/*
+!Results/opt-Nonlinear-Convo-CM15-fb-2hz-025-newbounds/opt-Nonlinear-Convo-CM15-fb-2hz-025-newbounds_bestParticles.csv
+
+# Microneurography data are not public (ethical and privacy restrictions)
+Data/
+ELID_CM.csv
+Serra_CM.csv
