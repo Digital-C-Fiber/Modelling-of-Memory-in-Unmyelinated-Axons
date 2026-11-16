@@ -26,6 +26,8 @@ first the linear branch, then the nonlinear branch with a, b, c frozen.
 | `stimulationProtocols.py` | Stimulation protocols (ELID, 2 Hz, recovery cycle "DP", "DP2hz", …) |
 | `run_plot.py` | Plots the best fit of the latest linear / nonlinear run |
 | `plot.py`, `dataProcessing.py` | Helper functions (reading results and data) |
+| `de_tradeoff.py` | Differential evolution (SciPy) check of the nonlinear stage, used to choose the weight w in S = MAE_2Hz + w·MAE_0.25Hz |
+| `de_results/de_tradeoff_results.csv` | Results of `de_tradeoff.py` for w = 0.3, 1, 3, 10 |
 | `Data/`, `ELID_CM.csv`, `Serra_CM.csv` | Microneurography data (CM fibres) – **not included**, see "Data" below |
 | `Results/` | Best parameters of the final runs (see below) |
 | `job.sh` | Example SLURM job script for the RWTH cluster |
